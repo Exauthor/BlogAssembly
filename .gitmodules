@@ -1,0 +1,6 @@
+[submodule "back"]
+	path = back
+	url = git@github.com:Warinyourself/NestBlog.git
+[submodule "front"]
+	path = front
+	url = git@github.com:Warinyourself/MyBlog.git
