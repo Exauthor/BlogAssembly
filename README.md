@@ -10,6 +10,10 @@
 
 `git `
 
+## Update all submodules
+
+`git submodule foreach git pull origin master` </br>
+
 ## Start docker container
 
 `docker ps` </br>
@@ -20,10 +24,10 @@
 
 `docker-compose rm -fsv mongo` </br>
 
-## Export database from mongo
-
-`mongodump --db admin -o /docker-entrypoint-initdb.d/` </br>
-
 ## Import to database
 
 `mongorestore /docker-entrypoint-initdb.d/` </br>
+
+## Export database from mongo
+
+`mongodump --db admin -o /docker-entrypoint-initdb.d/` </br>
