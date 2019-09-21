@@ -37,4 +37,3 @@ services:
     restart: always
     volumes:
       - ./dump/:/docker-entrypoint-initdb.d/
-
